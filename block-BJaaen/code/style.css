@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+h1 {
+  background-color: deepskyblue;
+  padding: 12px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.main {
+  margin: 100px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 20px 5px #ccc;
+  padding: 32px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-icon li {
+  color: rgb(86, 103, 255);
+}
+
+.computer-icon li {
+  color: rgb(252, 109, 128);
+}
+
+li {
+  font-size: 64px;
+  font-weight: 800;
+
+  cursor: pointer;
+  padding: 32px;
+}
+
+.result,
+.score {
+  font-size: 32px;
+  font-weight: 700;
+  color: hotpink;
+  padding: 32px;
+}
+
+.select {
+  color: rgb(2, 2, 2) !important;
+}
+.reset {
+  margin: 20px;
+  height: 50%;
+  background: rgb(99, 68, 29);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3em;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
