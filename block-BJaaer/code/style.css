@@ -39,8 +39,8 @@ img {
 /* Main CSS */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: linear-gradient(to right, #7f53ac 0, #657ced 100%);
 }
 * {
@@ -55,7 +55,7 @@ body {
   margin-top: 2rem;
 }
 
-input[type='text'] {
+input[type="text"] {
   padding: 0.5rem 1rem;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -85,9 +85,27 @@ p {
   display: flex;
   flex-direction: column;
 }
-input[type='text'] {
+input[type="text"] {
   width: 100%;
 }
 .terms {
   display: inline-block;
+}
+
+.modalOverlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.007);
+  padding: 32px;
+}
+
+.modalClose {
+  text-align: right;
+}
+
+.open {
+  display: block;
 }
